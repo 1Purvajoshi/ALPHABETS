@@ -41,29 +41,31 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="39dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="37dp"
         android:gravity="center"
         android:text="C"
         android:textColor="#ffffffff"
         android:textSize="100dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView2"
-        android:layout_toEndOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView2"
         android:gravity="center"
         android:text="at"
         android:textColor="#ffffffff"
-        android:textSize="100dp" />
+        android:textSize="100dp"
+        tools:ignore="RtlCompat" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_centerInParent="true"
         android:src="@drawable/cat" />
